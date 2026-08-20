@@ -55,8 +55,8 @@ Repository root
 
     matched_sensitivity_analysis_functions.R
         Shared routines used by both the simulations and the data analysis:
-        the conversion between the generalized sensitivity parameter,
-        the rank-based and U-statistic test statistics
+        the conversion between the generalized sensitivity parameter on the 
+        Gamma and gamma scale, the rank-based and U-statistic test statistics
         and their dose-weighted counterparts, the worst-case p-value under the
         generalized Rosenbaum sensitivity bounds, the adaptive testing
         procedure, the generalized design sensitivity, and the data-generating
