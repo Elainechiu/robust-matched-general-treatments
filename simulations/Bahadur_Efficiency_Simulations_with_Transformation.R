@@ -201,7 +201,7 @@ DS$Kink$`log(z)`$dose.weighted
 ## Each row of the slope_long follows the format of
 ##
 ##      curve   kappa Gamma_bar     test Gamma_star     Upsilon highest_Upsilon_test
-## Square       z       1.0   Wilcox   2.320736 0.051959079             D-Wilcox
+##     Square       z       1.0   Wilcox   2.320736 0.051959079             D-Wilcox
 ##       ...      ...       ...      ...        ...         ...                  ...
 ##       ...      ...       ...      ...        ...         ...                  ...
 ##
