@@ -53,7 +53,7 @@ FOLDER STRUCTURE
 
 Repository root
 
-    - matched_sensitivity_analysis_functions.R
+    matched_sensitivity_analysis_functions.R
         Shared routines used by both the simulations and the data analysis:
         the conversion between the generalized sensitivity parameter and its
         population counterpart, the rank-based and U-statistic test statistics
@@ -64,13 +64,13 @@ Repository root
 
 /data_analysis/
 
-    - Male_ETS_Lung_Function.R
+    Male_ETS_Lung_Function.R
         Section 5 of the main text and Appendix C.4 of the supplement.
         Part 1 (data cleaning and matching) constructs the matched sample from
         the raw NHANES files; Part 2 (data analysis) reproduces Table S.13,
         Figure 3, and Table 5.
 
-    - male_40_matched_data.csv
+    male_40_matched_data.csv
         The post-matching data set, I = 479 matched pairs of men over 40.
         Each row is a matched pair. The columns low.dose and high.dose hold the
         treatment dose (serum cotinine) of the lower- and higher-dose subject in
@@ -81,21 +81,21 @@ Repository root
 
 /simulations/
 
-    - Continuous_Outcome_Generalized_Design_Bahadur_Efficiency.R
+    Continuous_Outcome_Generalized_Design_Bahadur_Efficiency.R
         Figure 2, Table 2, Table 3, and Table 4 of the main text, and Tables
         S.1-S.2 of the supplement (binary outcome case). Uses kappa(z) = z and
         phi(z) = z throughout.
 
-    - SampleSplittingAndAdaptiveTesting.R
+    SampleSplittingAndAdaptiveTesting.R
         Tables S.3-S.6 of the supplement: finite-sample power of the adaptive
         test compared with sample splitting, at I = 100, 500, 1000, and 5000.
 
-    - Dose_Response_Curve_Transformation_Verification_Comparison.R
+    Dose_Response_Curve_Transformation_Verification_Comparison.R
         Tables S.7-S.8 of the supplement: verification of the generalized
         design sensitivity formula under the dose transformation kappa, and the
         comparison of design sensitivities across kappa.
 
-    - Bahadur_Efficiency_Simulations_with_Transformation.R
+    Bahadur_Efficiency_Simulations_with_Transformation.R
         Tables S.9-S.12 of the supplement: generalized Bahadur-Rosenbaum
         relative efficiencies and exact slopes under different kappa. Because
         this script is the most computationally demanding, its results are
