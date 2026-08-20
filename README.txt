@@ -172,10 +172,6 @@ in /data_analysis/, so Table 5, Table S.13, and Figure 3 can be reproduced
 directly, without downloading any NHANES file and without repeating the
 matching step.
 
-Publications predating the 2023 reorganization of the CDC site cite these files
-under the legacy address https://wwwn.cdc.gov/Nchs/Nhanes/2011-2012/, which now
-redirects to the addresses given above.
-
 
 ------------------------------------------------------------
 EXHIBIT INDEX
