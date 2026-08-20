@@ -189,7 +189,7 @@ MAIN TEXT
 
   Figure 2     /simulations/Continuous_Outcome_Generalized_Design_Bahadur_
                Efficiency.R, lines 36-139.
-               Output: written to file as DoseResponseCurve.png.
+               Output: printed to the console as DoseResponseCurve.png.
 
   Table 2      /simulations/Continuous_Outcome_Generalized_Design_Bahadur_
                Efficiency.R, lines 146-510.
