@@ -881,7 +881,7 @@ rownames(sensitivity.conversion.tb) <- c("Gamma_bar", "gamma")
 colnames(sensitivity.conversion.tb) <- c("wilcoxon", "dose-weighted", "(8,7,8)",
                                          "dose-weighted.(8,7,8)",
                                          "adaptive.wilcoxon", "adaptive.U")
-round(sensitivity.conversion.tb, 2)
+round(sensitivity.conversion.tb, 3)
 
 
 
